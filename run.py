@@ -23,5 +23,6 @@ def run_case():
     #提现
     withdraw_case=read_data('all_case.xlsx', 'withdraw')
     write_data(withdraw_case,'all_case.xlsx','withdraw',7,8)
-
+    print('我在执行')
 run_case()
+
